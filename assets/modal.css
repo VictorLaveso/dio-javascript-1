@@ -1,0 +1,210 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escurecido */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 0px;
+    border: 0;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modalHeader {
+    padding-top: 10;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modalNumber {
+    color: white;
+    opacity: .6;
+    text-align: right;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.modalDivNumber {
+    display: flex;
+    justify-content: end;
+}
+
+.modalHeader img{
+    max-width: 100%;
+    height: 200px;
+}
+
+.normal {
+    background-color: #a6a877;
+}
+.modalTypes .normal {
+    background-color: #979967;
+}
+.grass {
+    background-color: #77c850;
+}
+.modalTypes .grass {
+    background-color: #6bb648;
+}
+.fire {
+    background-color: #ee7f30;
+}
+.modalTypes .fire {
+    background-color: #da742b;
+}
+.water {
+    background-color: #678fee;
+}
+.modalTypes .water {
+    background-color: #5a84e6;
+}
+.electric {
+    background-color: #f7cf2e;
+}
+.modalTypes .electric {
+    background-color: #9b821d;
+}
+.ice {
+    background-color: #98d5d7;
+}
+.modalTypes .ice {
+    background-color: #81c3c5;
+}
+.ground {
+    background-color: #dfbf69;
+}
+.modalTypes .ground {
+    background-color: #caac58;
+}
+.flying {
+    background-color: #a98ff0;
+}
+.modalTypes .flying {
+    background-color: #886ecf;
+}
+.poison {
+    background-color: #a040a0;
+}
+.modalTypes .poison {
+    background-color: #913691;
+}
+.fighting {
+    background-color: #bf3029;
+}
+.modalTypes .fighting {
+    background-color: #b32a23;
+}
+.psychic {
+    background-color: #f65687;
+}
+.modalTypes .psychic {
+    background-color: #e94b7b;
+}
+.dark {
+    background-color: #725847;
+}
+.modalTypes .dark {
+    background-color: #6b4e3a;
+}
+.rock {
+    background-color: #b8a137;
+}
+.modalTypes .rock {
+    background-color: #a7902c;
+}
+.bug {
+    background-color: #a8b720;
+}
+.modalTypes .bug {
+    background-color: #9dac19;
+}
+.ghost {
+    background-color: #6e5896;
+}
+.modalTypes .ghost {
+    background-color: #574280;
+}
+.steel {
+    background-color: #b9b7cf;
+}
+.modalTypes .steel {
+    background-color: #a7a5c2;
+}
+.dragon {
+    background-color: #6f38f6;
+}
+.modalTypes .dragon {
+    background-color: #5f2cdf;
+}
+.fairy {
+    background-color: #f9aec7;
+}
+.modalTypes .fairy {
+    background-color: #e79ab3;
+}
+
+.modalHeader .modalTypes {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.modalHeader .modalTypes .modalType {
+    color: white;
+    padding: .25rem 1rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    margin-right: 5px;
+    border-radius: 1rem;
+}
+
+.modalBody {
+    background-color: white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.modalBody .sobre {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.sobre .modalTypes {
+    padding: 10%;
+    margin: 0%;
+    list-style: none;
+}
+
+.modalType {
+    padding-bottom: 10%;
+    margin: .25rem 0;
+    font-size: .625rem;
+    margin-right: 5px;
+    border-radius: 1rem;
+}
