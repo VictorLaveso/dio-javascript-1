@@ -53,11 +53,26 @@ function loadPokemonDetalhes(pokemonNumber) {
                 </div>
                 <div class="modalBody">
                     <div class="sobre">
+                        <p class="bold">Sobre</p>
                         <ol class="modalTypes">
-                            <li class="modalType>Species</li>
-                            <li class="modalType>Height</li>
-                            <li class="modalType>Weight</li>
-                            <li class="modalType>Abilities</li>
+                            <li>
+                                <span class="field-title">Espécie:</span>
+                                <span class="field-value">${pokemon.species}</span>
+                            </li>
+                            <li>
+                                <span class="field-title">Altura:</span>
+                                <span class="field-value">${pokemon.height}</span>
+                            </li>
+                            <li>
+                                <span class="field-title">Peso:</span>
+                                <span class="field-value">${pokemon.weight}</span>
+                            </li>
+                            <li>
+                                <span class="field-title">Habilidades:</span>
+                                <span class="field-value">
+                                    ${pokemon.abilities.join(", ")}
+                                </span>
+                            </li>
                         </ol>
                     </div>
                 </div>

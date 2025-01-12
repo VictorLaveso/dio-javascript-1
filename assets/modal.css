@@ -196,7 +196,7 @@
 }
 
 .sobre .modalTypes {
-    padding: 10%;
+    padding-bottom: 10%;
     margin: 0%;
     list-style: none;
 }
@@ -207,4 +207,20 @@
     font-size: .625rem;
     margin-right: 5px;
     border-radius: 1rem;
+}
+
+.field-title {
+    font-weight: bold;
+    color: #808080;
+    margin-right: 5px;
+}
+
+.field-value {
+    text-align: right;
+    flex: 1;
+  }
+
+.bold {
+    padding-left: 8%;
+    font-weight: bold;
 }
